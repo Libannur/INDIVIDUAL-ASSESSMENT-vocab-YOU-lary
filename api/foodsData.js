@@ -4,7 +4,7 @@ const endpoint = client.databaseURL;
 
 // GET FOOD CARDS
 const getFoodCards = () => new Promise((resolve, reject) => {
-  fetch(`${endpoint}//foods.json`, {
+  fetch(`${endpoint}/foods.json`, {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',

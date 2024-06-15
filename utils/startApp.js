@@ -15,7 +15,7 @@ const startApp = (user) => {
   domEvents(user);
   formEvents(user);
 
-  getFoodCards(user).then((vocab) => showFood(vocab));
+  getFoodCards(user).then((food) => showFood(food));
 };
 
 export default startApp;
