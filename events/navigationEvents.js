@@ -13,7 +13,7 @@ const navigationEvents = (user) => {
 
   // ALL FOOD CARDS
   document.querySelector('#all-cards-btn').addEventListener('click', () => {
-    getFoodCards(user.uid).then(showFood);
+    getFoodCards(user).then(showFood);
   });
 
   // CLICK EVENT FOR SHOG FORM FOR ADDING A FOOD CARD
